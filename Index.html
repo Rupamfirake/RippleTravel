@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RippleTravel</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Heebo:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">RippleTravel</h1>
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#Home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#walletpayment" class="navbar-link">Wallet</a>
+          </li>
+
+          <li>
+            <a href="#walletpayment" class="navbar-link">Payment</a>
+          </li>
+
+          <li>
+            <a href="#reward" class="navbar-link">Rewards</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#contactus" class="navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <a href="./ripple-wallet/Wallet.html" class="btn btn-secondary">Connect Wallet</a>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero"
+        style="background-image: url('./assets/images/hero-bg-bottom.png') url('./assets/images/hero-bg-top.png')">
+        <div class="container">
+
+          <img src="./assets/images/shape-1.png" width="61" height="61" alt="Vector Shape" class="shape shape-1">
+
+          <img src="./assets/images/shape-2.png" width="56" height="74" alt="Vector Shape" class="shape shape-2">
+
+          <img src="./assets/images/shape-3.png" width="57" height="72" alt="Vector Shape" class="shape shape-3">
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">Explore the World with Confidence </p>
+
+            <h2 class="hero-title">Welcome to RippleTravel</h2>
+
+            <p class="hero-text">
+              Empowering Global Explorations through CBDCs and Seamless Payments
+            </p>
+
+            <div class="btn-group">
+              <a href="#contactus" class="btn btn-primary">Contact Us</a>
+
+              <a href="#Home" class="btn btn-outline">Learn More</a>
+            </div>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="686" height="812" loading="lazy" alt="hero banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Featured
+      -->
+
+      <section id="Home" class="section destination">
+        <div class="container">
+
+          <p class="section-subtitle">Featured</p>
+
+          <h2 class="h2 section-title">Travel Smart, Pay Smart</h2>
+
+          <ul class="destination-list">
+
+            <li class="w-50">
+              <a href="#" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-1.jpg" width="1140" height="1100" loading="lazy"
+                    alt="Seamless Payments" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Seamless Payments</p>
+
+                  <h3 class="h3 card-title">Experience the convenience of hassle-free travel payments</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="w-50">
+              <a href="#" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-2.jpg" width="1140" height="1100" loading="lazy"
+                    alt="Digital Wallet" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Digital Wallet</p>
+
+                  <h3 class="h3 card-title">Your all-in-one solution for managing CBDCs, ensuring secure and instant transactions wherever you go</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-3.jpg" width="1110" height="480" loading="lazy"
+                    alt="QR Scan Payments" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">QR Scan/p>
+
+                  <h3 class="h3 card-title">QR Code Payments</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-4.jpg" width="1110" height="480" loading="lazy"
+                    alt="Real-time Itinerary Updates" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Real-time Itinerary Updates</p>
+
+                  <h3 class="h3 card-title">real-time travel information</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-5.jpg" width="1110" height="480" loading="lazy"
+                    alt="Loyalty Rewards" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Loyalty Rewards</p>
+
+                  <h3 class="h3 card-title">Earn and redeem points</h3>
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ExplorePay & GlobeCash
+      -->
+
+      <section id="walletpayment" class="section popular">
+        <div class="container">
+
+          <p class="section-subtitle">ExplorePay & GlobeCash</p>
+
+          <h2 class="h2 section-title">Wallet for Global Explorers</h2>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/wallet.jpg" width="740" height="518" loading="lazy"
+                      alt="Wallet" class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="card-title">
+                    <a href="#">Wallet</a>
+                  </h3>
+                  <address class="card-location">Explore the world with confidence using our cutting-edge digital wallet. Seamlessly manage CBDCs, exchange currencies, and track your travel finances all in one secure place</address>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/realtime.jpg" width="740" height="518" loading="lazy"
+                      alt="realtime data available" class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="card-title">
+                    <a href="#">Real-Time Itinerary Updates</a>
+                  </h3>
+
+                  <address class="card-location">Provide a basic itinerary management feature where users input their travel details and receive real-time updates on flight status, hotel check-ins, and activity bookings.</address>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/payment-1.jpg" width="740" height="518" loading="lazy"
+                      alt="Payment" class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="card-title">
+                    <a href="#">Payments Ways.</a>
+                  </h3>
+
+                  <address class="card-location">Experience instant and secure transactions through QR codes, making cross-border payments a breeze. Travel smarter with RippleTravel's seamless payment solution.</address>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Rewards
+      -->
+
+      <section id="reward" class="section blog">
+        <div class="container">
+
+          <p class="section-subtitle">Loyalty Rewards</p>
+
+          <h2 class="h2 section-title">Earn and redeem points for your travel activities, enhancing your journey with exclusive rewards</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+                <div class="card-content">
+
+                  <h3 class="card-title">
+                    Earn Points
+                  </h3>
+                    <span>Accumulate points with every CBDC transaction, creating a rewarding travel experience.</span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+                <div class="card-content">
+
+                  <h3 class="card-title">
+                    Activity Bonuses
+                  </h3>
+                  <span>Gain extra points by booking flights, hotels, and activities through RippleTravel.</span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+                <div class="card-content">
+
+                  <h3 class="card-title">
+                    Tiered Levels
+                  </h3>
+                  <span>Progress through different loyalty tiers for increasing benefits and privileges.</span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+                <div class="card-content">
+
+                  <h3 class="card-title">
+                    Redeem Rewards
+                  </h3>
+                  <span>Exchange earned points for travel discounts, upgrades, and exclusive offers.</span>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <div class="card-content">
+
+                  <h3 class="card-title">
+                    Partner Benefits
+                  </h3>
+                  <span>Access special deals and partnerships with travel-related businesses using your reward points.</span>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <div class="card-content">
+
+                  <h3 class="card-title">
+                    Personalized Offers
+                  </h3>
+                  <span>Receive customized rewards based on your travel preferences and history.</span>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="section-subtitle">About Us</p>
+
+            <h2 class="h2 section-title">Discover our mission to revolutionize travel payments and enhance global exploration.</h2>
+
+            <p class="about-text">
+              Our Vision: To provide a seamless and secure travel payment ecosystem using Central Bank Digital Currencies.
+            </p>
+
+            <h2 class="h2 section-title">Why Choose RippleTravel?</h2>
+
+
+            <ul class="about-list">
+
+              <li class="about-item">
+
+                <div class="about-item-content">
+                  <h3 class="h3 about-item-title">Expertise</h3>
+
+                  <p class="about-item-text">
+                    Our team brings together experts from the fields of finance, technology, and travel, ensuring that you receive a comprehensive and reliable solution.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="about-item">
+
+                <div class="about-item-content">
+                  <h3 class="h3 about-item-title">Innovation</h3>
+
+                  <p class="about-item-text">
+                    We're at the forefront of CBDC technology, pioneering solutions that enhance your travel experience and redefine payment convenience.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="about-item">
+
+                <div class="about-item-content">
+                  <h3 class="h3 about-item-title">Security</h3>
+
+                  <p class="about-item-text">
+                    Your safety is our top priority. We implement advanced security measures to protect your transactions and personal information.
+                  </p>
+                </div>
+
+              </li>
+
+            </ul>
+
+            <a href="./ripple-wallet/Wallet.html" class="btn btn-primary">Connect Wallet</a>
+
+          </div>
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="756" height="842" loading="lazy" alt="" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer id="contactus" class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Top Featured</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Wallet</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Payment</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Rewards</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Real-Time information</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">secure authetication</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Categories</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Travel</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Lifestyle</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Fashion</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Education</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Food & Drink</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Quick links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Payment</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Rewards</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Get a newsletter</p>
+
+          <p class="newsletter-text">
+            For the latest deals and tips, travel no further than your inbox
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email" required placeholder="Email address" class="newsletter-input">
+
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <a href="#" class="logo">RippleTravel</a>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 RippleTravel. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top aria-label="Go To Top">
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
